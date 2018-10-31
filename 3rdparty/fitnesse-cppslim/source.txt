@@ -1,0 +1,4 @@
+https://github.com/Kosta-Github/fitnesse-cppslim
+commit 75afa54827685737b49352cbed86f9562bd7227b
+
+plus some modifications

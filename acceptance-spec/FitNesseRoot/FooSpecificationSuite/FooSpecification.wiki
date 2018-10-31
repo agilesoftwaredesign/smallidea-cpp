@@ -1,0 +1,20 @@
+---
+Test
+---
+!define FIXTURE_PATH fixture.path
+!define TEST_SYSTEM {slim}
+!define TEST_RUNNER {${FIXTURE_PATH}/fitnesse_fixture}
+!define COMMAND_PATTERN {%m -port}
+
+Some acceptance test driving by examples to Foo.
+
+|Decision:Verify Foo hi is operating as expected|
+|hi?                                            |
+|not-hi                                         |
+
+And a acceptance test for the magic number calculation.
+
+|Decision:Verify Foo magic number calculation is operating as expected|
+|a                  |b                 |magic number?                 |
+|2                  |3                 |13                            |
+|4                  |5                 |23                            |

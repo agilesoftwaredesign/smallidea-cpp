@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.5)
+project(smallidea)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_compile_options(-Wall -Wpedantic -Werror)
+
+########
+
+add_library(smallidea
+        src/Foo.cpp include/smallidea/Foo.h)
+target_include_directories(smallidea PUBLIC
+        include)
+target_compile_options(smallidea PRIVATE -Wall -Wpedantic -Werror -Wextra)

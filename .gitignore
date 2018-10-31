@@ -1,0 +1,6 @@
+/.idea/
+/cmake-build-*/
+/build_*/
+*.zip
+/acceptance-spec/FitNesseRoot/RecentChanges.wiki
+/acceptance-spec/FitNesseRoot/files/
